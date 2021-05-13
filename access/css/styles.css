@@ -1,0 +1,179 @@
+/*Formatea los estilos*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**************************************************************************************************/
+    /********************************ESTILOS GENERALES************************/
+/*Estilos para el body*/
+.styleBody{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*Estilos para el header*/
+.styleHeader{
+    background-color: yellowgreen;
+    width: 90%;
+
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+/*Estilos para el main*/
+.styleMain{
+    background-color: yellowgreen;
+    width: 90%;
+
+    padding: 15px;
+    margin: 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/*Estilos para el footer*/
+.styleFooter{
+    background-color: yellowgreen;
+    width: 90%;
+
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*************************************************************************************************/
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*ESTILOS PARA LOS DEMAS ELEMENTOS DEL MENU - HEADER / HOME - REGISTRAR NOTAS Y IMG LOGO SENA */
+
+.styleUl{
+    display: flex;
+}
+
+.styleLi{
+    list-style: none;
+    background-color: white;
+    color: black;
+    margin: 0 20px 0 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+.styleLi:hover{
+    background-color: yellow;
+    border: 1px solid black;
+
+}
+
+
+
+.logoSena{
+    width: 65px;
+    position: absolute;
+    right: 77px;
+    top: 3%;
+}
+
+.styleLink{
+    text-decoration:none;
+    color: black;
+}
+
+/***************************************************************************************************/
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/***************************************************************************************************/
+/*ESTILOS PARA LOS DEMAS ELEMENTOS DEL CONTENIDO / MAIN - H1-TITULO, SECTION-TXT,IMG*/
+
+.styleTitulo-h1{
+    font-size: large;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.styleSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    /*margin: 15px;*/
+}
+
+.contenedorTxt{
+    background-color: white;
+    width: 40%; 
+    text-align: center;
+    display: flex;
+    margin:10px;
+    padding:5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.contenedorImg{
+    background-color: white;
+    width: 40%;
+    display: flex;
+    margin:10px;
+    padding:5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.imgDeveloper{
+    width: 100%;
+}
+/*************************************************************************************************/
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*************************************************************************************************/
+/*ESTILOS PARA LOS DEMAS ELEMENTOS DEL CONTENIDO / FOOTER - imgGit y usuario */
+
+.contenedorGit{
+    display: flex;
+    align-items: center;
+}
+
+.imgGithub{
+    width: 40px;
+}
+
+
+.usuarioGit{
+    font-size: medium;
+    font-weight: 700;
+}
+
+.linkGit{
+    text-decoration: none;
+    color: black;
+}
+
+.linkGit:hover{
+    color: yellow;
+}
+
+
+/*********************************************************************************/
+
+
+
+
