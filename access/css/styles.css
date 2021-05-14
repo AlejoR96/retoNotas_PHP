@@ -64,6 +64,11 @@
     display: flex;
 }
 
+.styleUlcolumna{
+    display: flex;
+    flex-direction: column;
+}
+
 .styleLi{
     list-style: none;
     background-color: white;
@@ -71,6 +76,10 @@
     margin: 0 20px 0 20px;
     padding: 5px 15px 5px 15px;
     border-radius: 5px;
+}
+
+.styleLiseparador{
+    margin:10px;
 }
 
 .styleLi:hover{
@@ -172,7 +181,40 @@
 }
 
 
-/*********************************************************************************/
+/*************************************************************************************************/
+
+/*------------------------------------------------------------------------------------------------*/
+
+/*************************************************************************************************/
+
+/*ESTILOS PARA LOS DEMAS ELEMENTOS DEL SUB MENU - REGISTRAR NOTAS - LISTA ESTUDIANTE*/
+
+.contenedorFormulario{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    margin:10px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.contenedorEntrada{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin:5px;
+}
+
+.contenedorInput{
+    margin-left: 10px;
+}
+
+
 
 
 
